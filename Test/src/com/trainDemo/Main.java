@@ -14,6 +14,7 @@ public class Main {
 
         HashMap<Town, ArrayList<Destination>> graph = new HashMap<>();
 
+
         ArrayList<Destination> edgesA =  new ArrayList<Destination>();
         edgesA.add(new Destination("B",5,false));
         edgesA.add(new Destination("D",5,false));
